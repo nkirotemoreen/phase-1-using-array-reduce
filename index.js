@@ -5,3 +5,7 @@ const totalBatteries = batteryBatches.reduce(function(total, batches){
   return batches + total
   }
 )
+console.log(totalBatteries)
+
+/*--console.log(batteryBatches.reduce((sum , batteries) => sum + batteries))--*/ 
+
